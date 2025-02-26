@@ -18,57 +18,236 @@ export default function Implications() {
     societal: {
       title: 'Societal Impact',
       content: `AI is reshaping society in profound ways:
-      • Automation of jobs and creation of new roles
-      • Changes in education and learning methods
-      • Impact on privacy and personal data
-      • Transformation of social interactions
-      • Evolution of entertainment and media
-      • Healthcare improvements and accessibility
-      • Changes in transportation and urban planning`
+
+1. Workforce Transformation:
+• Automation of routine tasks
+• Creation of new job categories
+• Skill requirements evolution
+• Remote work enablement
+• Workplace productivity changes
+
+2. Education Evolution:
+• Personalized learning paths
+• AI-assisted teaching
+• Skill assessment changes
+• Lifelong learning emphasis
+• Educational accessibility
+
+3. Healthcare Revolution:
+• Diagnostic assistance
+• Treatment personalization
+• Healthcare accessibility
+• Preventive medicine
+• Mental health support
+
+4. Social Interaction Changes:
+• Digital communication evolution
+• Virtual communities
+• Social media dynamics
+• Human-AI interaction
+• Relationship patterns
+
+5. Urban Development:
+• Smart city initiatives
+• Transportation systems
+• Energy management
+• Public safety
+• Environmental monitoring`
     },
     ethical: {
       title: 'Ethical Considerations',
       content: `Key ethical concerns surrounding AI include:
-      • Bias and fairness in AI systems
-      • Privacy and data protection
-      • Transparency and explainability
-      • Accountability for AI decisions
-      • Impact on human autonomy
-      • Digital divide and accessibility
-      • Environmental impact of AI computing`
+
+1. Fairness and Bias:
+• Algorithm bias detection
+• Dataset representation
+• Equal access to AI benefits
+• Fair decision-making
+• Discrimination prevention
+
+2. Privacy and Data Protection:
+• Personal data handling
+• Surveillance concerns
+• Data ownership rights
+• Consent management
+• Information security
+
+3. Transparency and Accountability:
+• Decision explanation
+• Audit mechanisms
+• Responsibility attribution
+• Error correction
+• Public oversight
+
+4. Human Agency:
+• Autonomy preservation
+• Human-in-the-loop systems
+• Decision-making authority
+• Control mechanisms
+• User empowerment
+
+5. Environmental Impact:
+• Energy consumption
+• Resource utilization
+• Environmental monitoring
+• Sustainable practices
+• Climate change considerations`
     },
     economic: {
       title: 'Economic Impact',
       content: `AI's influence on the economy:
-      • Job market transformation
-      • New business models and opportunities
-      • Industry automation and efficiency
-      • Economic inequality concerns
-      • Global competition in AI development
-      • Investment in AI research and development
-      • Impact on traditional business models`
+
+1. Labor Market Changes:
+• Job displacement
+• New role creation
+• Skill requirements
+• Wage impacts
+• Work-life balance
+
+2. Business Transformation:
+• Productivity improvements
+• Cost reduction
+• Innovation acceleration
+• Market competition
+• Business models evolution
+
+3. Industry Disruption:
+• Manufacturing automation
+• Service sector changes
+• Agricultural innovation
+• Healthcare efficiency
+• Financial services evolution
+
+4. Economic Distribution:
+• Wealth inequality
+• Income distribution
+• Economic opportunities
+• Market concentration
+• Regional development
+
+5. Global Competition:
+• AI race dynamics
+• Technology leadership
+• Resource allocation
+• International cooperation
+• Market access`
     },
     future: {
       title: 'Future Considerations',
       content: `Looking ahead, we must consider:
-      • Long-term effects on human society
-      • Regulation and governance of AI
-      • Education and workforce preparation
-      • Global cooperation and competition
-      • Environmental sustainability
-      • Ethical framework development
-      • Ensuring beneficial AI development`
+
+1. Long-term Societal Effects:
+• Cultural evolution
+• Social structures
+• Human relationships
+• Work patterns
+• Lifestyle changes
+
+2. Governance Frameworks:
+• Regulatory development
+• International standards
+• Policy coordination
+• Enforcement mechanisms
+• Adaptive governance
+
+3. Educational Preparation:
+• Curriculum updates
+• Skill development
+• Teacher training
+• Learning methods
+• Educational access
+
+4. Environmental Impact:
+• Energy efficiency
+• Resource optimization
+• Climate solutions
+• Sustainable AI
+• Environmental monitoring
+
+5. Human-AI Coexistence:
+• Integration patterns
+• Interaction models
+• Trust building
+• Role definition
+• Ethical frameworks`
     },
     governance: {
       title: 'AI Governance',
       content: `Important aspects of AI governance:
-      • Regulatory frameworks
-      • International cooperation
-      • Industry standards
-      • Safety protocols
-      • Ethics guidelines
-      • Public participation
-      • Risk assessment and management`
+
+1. Regulatory Frameworks:
+• Legal standards
+• Compliance requirements
+• Enforcement mechanisms
+• International coordination
+• Industry guidelines
+
+2. Safety Protocols:
+• Risk assessment
+• Testing requirements
+• Deployment guidelines
+• Monitoring systems
+• Emergency responses
+
+3. Ethical Guidelines:
+• Development principles
+• Usage restrictions
+• Rights protection
+• Fairness requirements
+• Accountability measures
+
+4. Stakeholder Engagement:
+• Public consultation
+• Industry participation
+• Academic input
+• Civil society role
+• Government coordination
+
+5. Implementation Strategy:
+• Phased deployment
+• Impact assessment
+• Resource allocation
+• Capacity building
+• Progress monitoring`
+    },
+    research: {
+      title: 'Research Priorities',
+      content: `Key areas requiring focused research:
+
+1. Technical Development:
+• Algorithm improvement
+• Efficiency enhancement
+• Safety mechanisms
+• Robustness testing
+• Integration methods
+
+2. Social Impact Studies:
+• Behavioral changes
+• Cultural effects
+• Community impacts
+• Adaptation patterns
+• Long-term consequences
+
+3. Economic Analysis:
+• Market effects
+• Job impacts
+• Innovation patterns
+• Growth dynamics
+• Distribution effects
+
+4. Environmental Research:
+• Energy efficiency
+• Resource usage
+• Climate effects
+• Sustainable practices
+• Impact mitigation
+
+5. Policy Development:
+• Regulatory frameworks
+• Governance models
+• International cooperation
+• Implementation strategies
+• Evaluation methods`
     }
   };
 

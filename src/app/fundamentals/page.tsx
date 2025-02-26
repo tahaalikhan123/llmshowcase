@@ -17,28 +17,148 @@ export default function AIFundamentals() {
   const sections: Sections = {
     intro: {
       title: 'Introduction to Artificial Intelligence',
-      content: `Artificial Intelligence (AI) refers to the simulation of human intelligence in machines programmed to think and learn like humans. The field encompasses everything from simple rule-based systems to complex neural networks that can process natural language and recognize patterns.`
+      content: `Artificial Intelligence (AI) refers to the simulation of human intelligence in machines programmed to think and learn like humans. The field encompasses everything from simple rule-based systems to complex neural networks that can process natural language and recognize patterns.
+
+Key concepts in AI include:
+• Machine Learning: Systems that improve with experience
+• Neural Networks: Computing systems inspired by biological brains
+• Deep Learning: Advanced neural networks with multiple layers
+• Natural Language Processing: AI systems that understand and generate human language
+• Computer Vision: Systems that can interpret and analyze visual information`
     },
     types: {
       title: 'Types of AI',
       content: `There are different types of AI:
-      • Narrow AI: Designed for specific tasks (like playing chess)
-      • General AI: Hypothetical AI with human-like general intelligence
-      • Super AI: Theoretical AI surpassing human intelligence`
+
+1. Narrow/Weak AI (ANI):
+• Designed for specific tasks
+• Examples: Chess engines, image recognition, virtual assistants
+• Currently the most common form of AI
+
+2. General AI (AGI):
+• Hypothetical AI with human-like general intelligence
+• Ability to understand, learn, and apply knowledge across domains
+• Currently not achieved, subject of ongoing research
+
+3. Super AI (ASI):
+• Theoretical AI surpassing human intelligence
+• Could potentially solve complex global challenges
+• Raises significant ethical and safety considerations
+
+4. Based on Functioning:
+• Rule-Based Systems: Follow pre-programmed rules
+• Machine Learning Systems: Learn from data
+• Hybrid Systems: Combine multiple approaches`
     },
     ml: {
       title: 'Machine Learning Basics',
-      content: `Machine Learning is a subset of AI that focuses on developing systems that can learn from and make decisions based on data. It includes:
-      • Supervised Learning
-      • Unsupervised Learning
-      • Reinforcement Learning`
+      content: `Machine Learning is a subset of AI that focuses on developing systems that can learn from and make decisions based on data. The main types include:
+
+1. Supervised Learning:
+• Learning from labeled data
+• Examples: Classification, regression
+• Applications: Spam detection, price prediction
+
+2. Unsupervised Learning:
+• Finding patterns in unlabeled data
+• Examples: Clustering, dimensionality reduction
+• Applications: Customer segmentation, anomaly detection
+
+3. Reinforcement Learning:
+• Learning through trial and error
+• Based on rewards and punishments
+• Applications: Game AI, robotics
+
+4. Semi-Supervised Learning:
+• Combines labeled and unlabeled data
+• Reduces need for expensive labeled data
+• Applications: Image classification, speech recognition`
     },
     neural: {
       title: 'Neural Networks',
       content: `Neural networks are computing systems inspired by biological neural networks. They form the foundation of modern AI and deep learning, enabling computers to:
-      • Recognize patterns
-      • Process complex data
-      • Learn from experience`
+
+1. Architecture:
+• Input Layer: Receives raw data
+• Hidden Layers: Process information
+• Output Layer: Produces results
+• Neurons: Basic computational units
+• Weights and Biases: Adjustable parameters
+
+2. Key Concepts:
+• Backpropagation: Learning from errors
+• Activation Functions: Adding non-linearity
+• Loss Functions: Measuring performance
+• Optimization: Improving accuracy
+
+3. Applications:
+• Image Recognition
+• Natural Language Processing
+• Speech Recognition
+• Game Playing
+• Medical Diagnosis`
+    },
+    applications: {
+      title: 'Real-World Applications',
+      content: `AI is transforming various industries and aspects of daily life:
+
+1. Healthcare:
+• Disease diagnosis
+• Drug discovery
+• Patient care optimization
+• Medical imaging analysis
+
+2. Finance:
+• Fraud detection
+• Algorithmic trading
+• Risk assessment
+• Personal banking
+
+3. Transportation:
+• Autonomous vehicles
+• Traffic management
+• Route optimization
+• Safety systems
+
+4. Entertainment:
+• Content recommendations
+• Game AI
+• Virtual reality
+• Art generation
+
+5. Education:
+• Personalized learning
+• Automated grading
+• Student engagement
+• Administrative tasks`
+    },
+    challenges: {
+      title: 'Challenges and Limitations',
+      content: `Current challenges in AI development include:
+
+1. Technical Challenges:
+• Data quality and quantity requirements
+• Computational resources needed
+• Algorithm optimization
+• System reliability and robustness
+
+2. Ethical Concerns:
+• Privacy issues
+• Bias in AI systems
+• Transparency and explainability
+• Safety considerations
+
+3. Implementation Challenges:
+• Integration with existing systems
+• Cost of development and deployment
+• Skill gap in workforce
+• Regulatory compliance
+
+4. Future Considerations:
+• Sustainability of AI systems
+• Social impact management
+• International cooperation
+• Research directions`
     }
   };
 
